@@ -1,0 +1,210 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.encabezado_principal {
+    background: rgb(187, 15, 15);
+}
+
+
+.contenedor_header {
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    height: 80px;
+
+    display: flex;
+    justify-content: space-around
+}
+
+.contenedor_logo {
+    padding-top: 0px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.logo {
+    display: block;
+    height: 80px;
+    width: 150px;
+ align-self: flex-start;
+}
+
+
+.span_logo {
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+}
+
+.svg_logo {
+    fill: currentColor;
+}
+
+.menu_item {
+    display: inline-block;
+    font-size: 17px;
+    line-height: inherit;
+    letter-spacing: 0;
+    margin-top: 14px;
+}
+ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.item {
+    padding: 28px 17px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #FFF;
+    margin-top: 20px;
+}
+
+.separator {
+    height: 16px;
+    width: 1px;
+    margin: auto 17px;
+    background: #fff;
+}
+
+.menu_escritorio {
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.item:hover {
+    color: #5d7565;
+}
+
+.menu_movil {
+    display: flex;
+    position: relative;
+}
+
+.menu_boton_movil {
+    padding: 0 0 1px 9px;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    position: relative;
+    color: #FFF;
+
+}
+
+.menu_movil_span {
+    background-color: #FFF;
+    border-radius: 1px;
+    display: block;
+    height: 3px;
+    width: 22px;
+}
+
+.menu_movil_span_separacion {
+    margin-top: 4px;
+}
+.primerseccion {
+    background-image: url(https://scontent.fyzd1-3.fna.fbcdn.net/v/t39.30808-6/262443052_135661822159234_7806859945295720001_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=e3f864&_nc_ohc=SEwOx2zK3LMAX_xhusp&_nc_ht=scontent.fyzd1-3.fna&oh=00_AT_0jwI1WdiOOkv2adbdF61sC2CUhOuIS3yfT6QCKpQOhA&oe=632BCEA4);
+    width: 100%;
+    height: 580px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+.primerseccion > div {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin-left: 15px;
+}
+
+.titulo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: #FFF;
+   font-weight: 700;
+   font-size: 65px;
+   padding-bottom: 15px;
+   text-align: left;
+}
+
+.subtitulo1 {
+    font-weight: 545;
+    font-size: 30px;
+    padding-top: 20px; 
+    color: rgb(201, 194, 194);
+}
+
+.subtitulo_boton {
+    font-weight: 600;
+    font-size: 20px;
+    padding-top: 25px;
+    color: #FFF;
+}
+
+.email {
+    padding-top: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: rgba(253, 249, 249, 0.212);
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #fff
+}
+
+.boton_subscribe{
+text-decoration: none;
+font-weight: 500;
+font-size: 18px;
+color: #fff;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 40px;
+padding-right: 40px;
+background-color: rgb(168, 14, 14);
+border-width: 3px;
+border-style: solid;
+border-radius: 35px;
+}
+
+.boton_pedido{
+text-decoration: none;
+font-weight: 500;
+font-size: 18px;
+color: #fff;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 40px;
+padding-right: 40px;
+background-color: rgb(168, 14, 14);
+border-width: 3px;
+border-style: solid;
+border-radius: 60px;
+}
+
+.segundaseccion > main {
+    max-width: 100%;
+    padding: 1rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    object-fit: contain;
+    width: 300px;
+}
