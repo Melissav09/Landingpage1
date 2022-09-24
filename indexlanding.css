@@ -256,3 +256,43 @@ border-radius: 60px;
     display: flex;
     align-self: flex-end;
 }
+
+.tercerseccion > div {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    margin-left: 15px;
+}
+.tercerseccion {
+    background-image: url(https://scontent.fyzd1-2.fna.fbcdn.net/v/t39.30808-6/244307643_122039023521514_655691932375719333_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e3f864&_nc_ohc=DhBd7zNaLcoAX_rZ1zG&tn=d0Vs1D3oMUNjtHhZ&_nc_ht=scontent.fyzd1-2.fna&oh=00_AT_9XRuu7a4wvy7DWxIJcMEI3OwH6B6RNwTWWsGiODlrIQ&oe=633375A6);
+    width: 100%;
+    height: 580px;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right;
+}
+.subtitulo_tacos1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: rgb(168, 14, 14);
+   font-weight: 600px;
+   font-size: 40px;
+   padding-bottom: 10px;
+   text-align: right;
+}
+
+.subtitulo_tacos2 {
+    font-weight: 500;
+    font-size: 35px;
+    padding-top: 20px; 
+    text-align: right;
+    color: rgb(168, 14, 14);
+}
+
+.Img_tacos {
+display: block;
+width: 50%;
+}
+
