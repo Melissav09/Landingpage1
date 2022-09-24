@@ -5,7 +5,7 @@
 }
 
 html {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Times New Roman, Times, serif;
 }
 
 .encabezado_principal {
@@ -139,14 +139,14 @@ ul {
 
 .subtitulo1 {
     font-weight: 545;
-    font-size: 30px;
+    font-size: 33px;
     padding-top: 20px; 
     color: rgb(201, 194, 194);
 }
 
 .subtitulo_boton {
     font-weight: 600;
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 25px;
     color: #FFF;
 }
@@ -271,28 +271,29 @@ border-radius: 60px;
     background-repeat: no-repeat;
     background-size: 50%;
     background-position: right;
+    background-color:rgb(168, 14, 14);
 }
-.subtitulo_tacos1 {
+.subtitulotacos1 {
     display: flex;
+    width: 100%;
     flex-direction: column;
-    justify-content: flex-end;
-    color: rgb(168, 14, 14);
-   font-weight: 600px;
-   font-size: 40px;
-   padding-bottom: 10px;
-   text-align: right;
+    justify-content: flex-start;
+    color: #FFF;
+   font-weight: 700;
+   font-size: 70px;
+   text-align: center;
+   margin-right: auto;
+   font-family: 'Times New Roman', Times, serif;
+   padding-right: 100px;
+   padding-top: 50px;
 }
 
-.subtitulo_tacos2 {
-    font-weight: 500;
-    font-size: 35px;
+.subtitulotacos2 {
+    font-weight: 545;
+    font-size: 40px;
     padding-top: 20px; 
-    text-align: right;
-    color: rgb(168, 14, 14);
+    color:#FFF;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 100px;
 }
-
-.Img_tacos {
-display: block;
-width: 50%;
-}
-
